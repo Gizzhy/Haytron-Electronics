@@ -1,0 +1,169 @@
+body {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+.overall {
+  text-align: center;
+  margin-top: 50px;
+  /* display: flex;
+  flex-direction: row; */
+  justify-content: center;
+}
+.hay {
+  width: 7%;
+  margin-bottom: 15px;
+}
+.oro1 {
+  font-weight: 700;
+}
+.oro2 {
+  font-weight: 450;
+  font-size: 15px;
+}
+.for {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  padding-left: 20px;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  padding-left: 20px;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  padding-left: 20px;
+}
+input:focus {
+  border: 2px solid #cc335f;
+}
+input {
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  /* -webkit-transition: 0.5s; */
+  /* transition: 0.5s; */
+  outline: none;
+  width: 550px;
+  height: 56px;
+  margin-bottom: 40px;
+}
+.button {
+  width: 550px;
+  height: 50px;
+  border: 0;
+  color: white;
+  background-color: #cc335f;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.button:hover {
+  background-color: #992d4b;
+}
+.password-wrapper {
+  position: relative;
+}
+
+.password-input {
+  padding-right: 30px;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.password-toggle i {
+  font-size: 20px;
+  color: #999;
+}
+
+.password-toggle i:hover {
+  color: #000;
+}
+
+.error-message {
+  color: red;
+}
+
+.password-match {
+  border-color: green;
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  input {
+    width: 300px;
+  }
+  .button {
+    width: 300px;
+  }
+  .hay {
+    width: 20%;
+  }
+}
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  input {
+    width: 365px;
+  }
+  .button {
+    width: 365px;
+  }
+  .hay {
+    width: 22%;
+  }
+}
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  input {
+    width: 345px;
+  }
+  .button {
+    width: 345px;
+  }
+  .hay {
+    width: 22%;
+  }
+}
+/* ----------- TABLET ----------- */
+
+/* Portrait and Landscape */
+@media (min-device-width: 800px) and (max-device-width: 1280px) {
+  input {
+    width: 900px;
+  }
+  .button {
+    width: 900px;
+    height: 56px;
+  }
+  .hay {
+    width: 15%;
+  }
+  .for {
+    font-size: 18px;
+  }
+  .oro1 {
+    font-size: 25px;
+  }
+  .oro2 {
+    font-size: 22px;
+  }
+  .overall {
+    margin-top: 230px;
+  }
+}

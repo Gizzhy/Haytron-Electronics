@@ -1,0 +1,166 @@
+body {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+.head00 {
+  background-color: #cc335f;
+  height: 27px;
+  color: white;
+}
+.head-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+.head1 {
+  font-size: 14px;
+}
+.head01 {
+  margin-top: 20px;
+}
+.search-a {
+  height: 30px;
+  width: 400px;
+}
+.search-b {
+  border: 0;
+  background-color: #cc335f;
+  height: 31px;
+  width: 35px;
+  margin-left: -4px;
+}
+input[placeholder] {
+  font-size: 13px;
+}
+input {
+  border: 1px rgb(207, 207, 207) solid;
+}
+input:focus {
+  outline: none;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.head02 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  padding-top: 8px;
+}
+.phone-no {
+  color: #b3b3b3;
+  padding-top: -10px;
+}
+.phone-no:hover::after {
+  content: "facebook";
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 5px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.video-a {
+  background-color: rgb(230, 230, 230);
+  margin-top: 30px;
+  height: 500px;
+}
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Aspect ratio of 16:9 (9 / 16 = 0.5625 or 56.25%) */
+  overflow: hidden;
+  padding-top: 20px;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 100%;
+}
+.vid-w {
+  font-weight: bold;
+  font-size: 20px;
+}
+.vid-ww1 {
+  padding: 80px 0;
+  /* padding-left: -20px; */
+}
+.vid-ww {
+  padding: 150px 0;
+}
+.butt1 {
+  width: 140px;
+  height: 52px;
+  border: 0;
+  border-radius: 25px;
+  color: white;
+  background-color: #cc335f;
+  font-weight: bold;
+}
+.butt2 {
+  width: 140px;
+  height: 52px;
+  border: 2px #cc335f solid;
+  border-radius: 25px;
+  color: #cc335f;
+  background-color: rgb(230, 230, 230);
+  font-weight: bold;
+}
+.butt2:hover {
+  color: white;
+  background-color: #cc335f;
+}
+
+/* carousel */
+.carousel-a {
+  margin-top: 50px;
+}
+.carousel-container1 {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-track1 {
+  display: flex;
+  animation: carouselAnimation 18s linear infinite;
+  transform: translateX(100%); /* Start the animation from the far right */
+}
+
+.carousel-item1 {
+  width: calc(
+    100% / 6
+  ); /* Adjust the width to display the desired number of images */
+}
+.caro-b-a {
+  text-align: center;
+}
+.caro-b {
+  width: 190px;
+  height: 50px;
+  border: 0;
+  border-radius: 25px;
+  color: white;
+  background-color: #cc335f;
+  font-weight: bold;
+}
+.caro-b:hover {
+  background-color: #771b35;
+}
+
+@keyframes carouselAnimation {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* carousel */
