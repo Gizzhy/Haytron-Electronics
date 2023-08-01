@@ -1,6 +1,7 @@
 body {
   color: black;
   font-family: "Montserrat", sans-serif;
+  background-color: #cc335f;
 }
 .head00 {
   background-color: #cc335f;
@@ -164,3 +165,21 @@ input:focus {
 }
 
 /* carousel */
+@media only screen and (min-device-width: 801px) {
+  .mobile-head {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 800px) {
+  .pc {
+    display: none;
+  }
+  .phone-no-mo {
+    color: rgb(255, 255, 255);
+  }
+  .mobile-head {
+    background-color: #cc335f;
+    height: 29px;
+  }
+}
