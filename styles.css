@@ -1,7 +1,7 @@
 body {
   color: black;
   font-family: "Montserrat", sans-serif;
-  background-color: #cc335f;
+  
 }
 .head00 {
   background-color: #cc335f;
@@ -16,8 +16,12 @@ body {
 .head1 {
   font-size: 14px;
 }
+.head001{
+  background-color: rgb(255, 255, 255);
+}
 .head01 {
   margin-top: 20px;
+  
 }
 .search-a {
   height: 30px;
@@ -172,14 +176,21 @@ input:focus {
 }
 
 @media only screen and (min-device-width: 280px) and (max-device-width: 800px) {
+  body{
+    background-color: #cc335f;
+  }
   .pc {
     display: none;
   }
   .phone-no-mo {
     color: rgb(255, 255, 255);
+    text-decoration: none !important;
   }
   .mobile-head {
     background-color: #cc335f;
-    height: 29px;
+    height: 2.3vh;
+  }
+  .mobile-head2{
+    padding: 1vh 0;
   }
 }
