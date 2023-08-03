@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="mobile.css" />
+    <title>Responsive Navbar</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <button class="toggle-button" onclick="toggleNav()">☰</button>
+      <img src="images/logo.jpg" alt="Logo" class="logo" />
+      <ul class="nav-list" id="navList">
+        <li><a href="https://haytronelectronics.netlify.app/">Home</a></li>
+        <li><a href="https://haytronelectronics.netlify.app/">About</a></li>
+        <li class="has-submenu">
+          <a href="#">Services</a>
+          <ul class="submenu">
+            <li>
+              <a href="https://haytronelectronics.netlify.app/">Service 1</a>
+            </li>
+            <li>
+              <a href="https://haytronelectronics.netlify.app/">Service 2</a>
+            </li>
+            <li>
+              <a href="https://haytronelectronics.netlify.app/">Service 3</a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="https://haytronelectronics.netlify.app/">Contact</a></li>
+      </ul>
+    </div>
+    <script src="mobile.js"></script>
+  </body>
+</html>
