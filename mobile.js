@@ -1,4 +1,4 @@
 function toggleNav() {
-  var navList = document.getElementById("navList");
-  navList.style.display = navList.style.display === "block" ? "none" : "block";
+  var navbar = document.querySelector(".navbar");
+  navbar.classList.toggle("show");
 }

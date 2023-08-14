@@ -1,9 +1,9 @@
 // Add functionality to show/hide subsectionpcspc on hover
-const navbarItems = document.querySelectorAll(
+const navbarItemspcspc = document.querySelectorAll(
   ".navbar-itempc, .navbar-itempc2, .navbar-itempc3, .navbar-itempc4, .navbar-itempc5, .navbar-itempc6"
 );
 
-navbarItems.forEach((item) => {
+navbarItemspcspc.forEach((item) => {
   const subsectionpcspc = item.querySelector(
     ".subsectionpcspc, .subsectionpcspc2, .subsectionpcspc3, .subsectionpcspc4, .subsectionpcspc5, .subsectionpcspc6"
   );

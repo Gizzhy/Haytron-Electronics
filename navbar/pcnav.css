@@ -2,10 +2,9 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
 }
 
-.navbar {
+.navbar-pc {
   background-color: #e6e6e6;
   color: black;
   height: 5.2vh;
